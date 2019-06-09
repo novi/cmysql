@@ -5,5 +5,5 @@ includedir=${prefix}/include
 Name: MySQL
 Description: MySQL client library
 Version: 2.0
-Cflags: -I${includedir}
+Cflags: -I${includedir} -I${includedir}/mysql
 Libs: -L${libdir} -lmysqlclient
